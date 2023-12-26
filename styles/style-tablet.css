@@ -1,0 +1,16 @@
+@media (min-width: 768px) and (max-width: 1119px) {
+  p {
+    padding-left: 24px;
+    line-height: 20px;
+  }
+
+  .read-more {
+    padding-left: 25px;
+  }
+
+  .hide-mobile-tablet {
+    display: none;
+  }
+  
+
+}

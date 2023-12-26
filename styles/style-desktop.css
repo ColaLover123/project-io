@@ -1,0 +1,107 @@
+@media (min-width: 1119px) {
+
+  body {
+    width: 1120px;
+  }
+  header {
+    display: none;
+  }
+
+  main {
+    padding-right: 28.65px;
+    padding-left: 34px;
+  }
+
+  .desktop {
+    justify-content: space-between;
+  }
+
+  .alternate-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  
+  .alternate-buttons__rest {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .highlight {
+    transform: translateX(-34px);
+  }
+
+  .reviews {
+    white-space: nowrap;
+    line-height: 100%;
+    width: 80px;
+    padding: 7px;
+    text-decoration: unset;
+    color: #7E7E82;
+    border: 2px solid transparent;
+  }
+ 
+  .reviews:focus {
+    border-radius: 6px;
+    border: 2px solid #B8FFEC;
+    background: #FFF;
+  }
+
+  .title {
+    padding: 0;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .reviews {
+    display: flex;
+  }
+
+  .links-group {
+    padding-left: 0;
+  }
+
+  p {
+    width: 450px;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .text {
+    display: flex;
+  }
+
+  .hide-mobile-desktop {
+    display: none;
+  }
+
+  .block-info {
+    display: flex;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .read-more {
+    padding-left: 0;
+  }
+
+  .photo {
+    padding: 0;
+    position: relative;
+    width: 531.35px;
+    height: 307px;
+    left: 35px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 5px;  
+    border-top-left-radius: 5px;  
+  }
+}
